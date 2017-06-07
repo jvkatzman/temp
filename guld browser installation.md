@@ -1,4 +1,4 @@
-**GULD BROWSER INSTALLATION:**
+# GULD BROWSER INSTALLATION
 
 Guld Browser requires the following software:
 
@@ -9,15 +9,18 @@ Guld Browser requires the following software:
 
 
 
-Windows Installation
+# Windows Installation
 
 1. See if you already have NPM installed (you need version 5 or greater):
-    * Open the Windows Command Prompt and type:
-      npm –v  
-      (If installed you will see something similar to 5.0.3
+    * Open the Windows Command Prompt and paste the following command:
+      >npm –v  
+
+      (If installed you will see something similar to 5.0.3)
 2. See if you already have Node installed:
-    * Open the Windows Command Prompt and type: node –v  
-       (If installed you will see something similar to v6.10.0
+    * Open the Windows Command Prompt and paste the following command: 
+      >node –v
+
+       (If installed you will see something similar to v6.10.0)
 
 
 3. Node/NPM are installed together. If you do not have it installed follow these instructions:
@@ -32,41 +35,44 @@ Windows Installation
     * YOU HAVE TO RESTART YOUR COMPUTER  You will not be able to run Node.js® until you restart your computer.
     * Re-run steps 1 and 2 to confirm that you have installed Node and NPM
 
-4. From the Windows Command Prompt Install ledger-cli. Type:
-    * npm install ledger-cli -g
+4. From the Windows Command Prompt Install ledger-cli. Paste the following command:
+    > npm install ledger-cli -g
 
-5. From the Windows Command Prompt Install gpg Type:
-    * npm install gpg -g
-
-
+5. From the Windows Command Prompt Install gpg. Paste the following command:
+    > npm install gpg -g
 
 
-Mac Installation
+
+
+# Mac Installation
 
 1. See if you already have NPM installed:
-    * Open Terminal Prompt and type:
-    npm –v  
-    (If installed you will see something similar to 5.0.3
+    * Open Terminal Prompt and paste the following command:
+      >npm –v  
+
+      (If installed you will see something similar to 5.0.3)
 
 2. See if you already have Node installed:
-    * Open Terminal Prompt and type:
-    node –v  
-    (If installed you will see something similar to v6.10.0
+    * Open Terminal Prompt and paste the following command:
+      >node –v  
+
+      (If installed you will see something similar to v6.10.0)
 
 
 3. Node/NPM are installed together. If you do not have it installed follow these instructions:
     *  Node requires 2 other applications before installation:
       1. XCode  (used for development on a Mac).  XCode is free and you can find it in the  [Apple App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12).
       2. Homebrew (package manager for the Mac).
-        *  open Terminal Prompt and type:
-          ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+        * Open Terminal Prompt and paste the following command:
+     > ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
 
       3. Install Node/NPM:
-      * Open Terminal Prompt and type:
-         brew install node
+      * Open Terminal Prompt and paste the following command:
+         >brew install node
+         
       4. Re-run steps 1 and 2 to confirm that you have installed Node and NPM
-4. From the Terminal Prompt Install ledger-cli. Type:
-    npm install ledger-cli -g
+4. From the Terminal Prompt Install ledger-cli. Paste the following command:
+    > npm install ledger-cli -g
 
-5. From the Terminal Prompt Install gpg, Type:
-    npm install gpg -g
+5. From the Terminal Prompt Install gpg, Paste the following command:
+    > npm install gpg -g
